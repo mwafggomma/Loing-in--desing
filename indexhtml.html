@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+<link rel="stylesheet" type="text/CSS" 
+href="mister.css">
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    
+ .frist{
+    position: relative;
+    width: 265px;
+    height: 320px;
+    background-color:#ffffff12;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    background-size: cover;
+    background-position: center;
+    filter: blur();
+    color: rgba(0, 0, 0, 0.888);
+    backdrop-filter: blur(10px);
+    border: 2px solid white;
+    
+}
+.li{
+    border-radius: 10px;
+}
+a:hover{
+    color: rgb(202, 23, 23);
+    text-decoration: underline;
+}
+form{
+    position: absolute;
+    left: 35%;
+    top :5%;
+    background-size: cover;
+
+}
+.toll{
+    position: absolute;
+    left: 200px;
+    top: 295px;
+    text-decoration: underline;
+}
+body{
+    background-image: url(cars-d04ca972-cfdf-4023-8043-10b7bf00fffe.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    position: absolute;
+    top: 250px;
+    left: 22px;
+    color: white;  
+
+}
+
+ 
+
+</style>
+</head>
+<body>
+    <form>
+<div class="frist">
+    <label>Email</label>
+    <input type="text">
+    <br>
+    <label>password</label>
+    <input type="password">
+    <br>
+    <a href="#">Forget The password ?</a>
+    <br>
+    <div>
+        <input type="checkbox">
+        <label>Remember me</label>
+    </div>
+    <div class="toll">
+    <a href="#">Help ?</a>
+    </div>
+    <br>
+    <button class="li">Reset</button>
+<br>
+    <button class="li">Long in</button>
+    <p>Dont have an acount ? Register:</p>
+    </div>
+    </form>
+</div>
+</body>
+</html>
